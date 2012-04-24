@@ -1,0 +1,111 @@
+html, body {
+  width: 100%;
+}
+
+body {
+  background: #FFFFFF url('images/bg_rpt.jpg') top center repeat;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-weight: 100;
+}
+
+h3 {
+  font-size: .8em;
+  font-weight: 100;
+  margin-bottom: 16px;
+}
+
+a {
+  color: #fff195;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffde00;
+  text-decoration: none;
+}
+
+a img {
+  border: 5px solid #fff195;
+}
+
+a img:hover {
+  border: 5px solid #ffde00;
+}
+
+#wrapper {
+  margin: 0px auto;
+  width: 940px;
+}
+
+#header {
+  margin: 30px 0;
+  width: 100%;
+  text-align: center;
+}
+
+#info, #contact {
+  height: 312px;
+}
+
+#info {
+  float: left;
+}
+
+#info ul {
+  margin-top: 26px;
+  text-align: center;
+}
+
+#info ul li {
+  
+  padding: 0px 40px;
+  display: inline;
+  font-size: 1.2em;
+}
+
+#facebook {
+  border-left: 2px solid #FFFFFF;
+}
+
+#contact {
+  float: right;
+}
+
+#likes {
+  height: 110px;
+  clear: both;
+  margin-bottom:100px;
+}
+
+#likes ul {
+  margin-left: 12px;
+}
+
+#likes ul li {
+  font-size: .9em;
+  width: 282px;
+  float: left;
+  display: block;
+  line-height: 24px;
+  padding-left: 10px;
+  background: url('images/bullet.jpg') center left no-repeat;
+}
+
+.contentblock {
+  background-color: #1A1718;
+  color: #FFFFFF;
+  padding: 16px;
+  margin-bottom: 16px;
+  -moz-box-shadow: 0px 0px 10px #888;
+  -webkit-box-shadow: 0px 0px 10px #888;
+  box-shadow: 0px 0px 10px #888;
+}
+
+.title {
+  margin-top: 4px;
+  margin-bottom: 6px;
+}
+
+.picture {
+  border: 5px solid #FFFFFF;
+}
